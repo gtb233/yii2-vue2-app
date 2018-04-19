@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <router-view class="view" keep-alive transition transition-mode="out-in"/>
   </div>
 </template>
 

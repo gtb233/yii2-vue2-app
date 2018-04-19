@@ -17,6 +17,6 @@ class AuthController extends BaseApiController
         if ($username == 'admin' && $password == 'admin'){
             return ['success' => 1, 'msg' => '100-token'];
         }
-        return ['success' => 0, 'msg' => \yii::t('erp', 'username or password error!')];
+        return ['success' => 0, 'msg' => \yii::t('app', 'username or password error!')];
     }
 }
